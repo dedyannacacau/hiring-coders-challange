@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/batman-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>BAT Cave</title>
+  </head>
+  <body>
+    <main>
+      <section class="flex-center">
+        <img
+          class="bf-logo"
+          src="img/bf.png"
+          width="100%"
+          alt="Black Friday Logo"
+        />
+      </section>
+
+      <section class="flex-center flex-column text-n-input">
+        <h2>
+          <span class="black-friday-text">BLACK FRIDAY NA</span><br />
+          <span class="bat-store-text">BAT Cave</span>
+        </h2>
+        <p>
+          PRODUTOS DA BAT Cave EM OFERTA COM DESCONTOS <br />QUE CHEGAM À
+          <span class="discount-text">85%</span> EM TODA A LOJA <br />
+          VENHA CONFERIR!!!
+        </p>
+        <h3 class="CTA-text">
+          Se inscreva na nossa <span class="newsletter-text">NEWSLETTER</span>
+          <br />Para receber uma notificação com das ofertas!
+        </h3>
+        <div class="input-wrapper">
+          <input id="emailInput" type="email" placeholder="Digite seu e-mail" />
+          <button id="subscribeBtn">Inscrever</button>
+        </div>
+        <p id="mesage-display"></p>
+      </section>
+
+      <section id="modal" class="flex-center">
+        <div class="modal-body">
+          <div class="modal-content">
+            <h2>INSCRIÇÃO CONCLUÍDA!</h2>
+            <p>
+              <span>Parabéns</span>, sua inscrição em nossa Newsletter foi
+              concluída com sucesso! Você receberá um e-mail quando as ofertas
+              da <span>BLACK FRIDAY</span> começarem!
+            </p>
+            <button id="closeBtn">&times;</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
